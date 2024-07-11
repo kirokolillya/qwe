@@ -1,0 +1,178 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+body{
+
+	background-color: #100f0f;
+	color: white;
+}
+a{text-decoration: none;
+color: white;}
+a:hover {
+text-decoration: underline;
+}
+.nav-link:hover {
+text-decoration: underline;
+}
+
+.title{
+}
+
+.underline{
+	height: 5px; 
+	width: 170px;
+	background-color: white;
+	border-radius: 20px;
+}
+.bigcontainer{
+
+	display: flex;
+	justify-content: center;
+}
+.containe{
+
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3px;
+	width: 20%;
+margin-top: 110px;
+
+}
+
+.container{
+	
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+footer{
+display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 15px;
+	background-color: black;
+	
+}
+.imag{
+	border-radius: 10px;
+}
+
+.footbck{
+
+	color: white;
+width: 50%;
+text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.con{
+
+	width: 100%;
+	height: 30%;
+}
+
+.son{
+
+	width: 160%;
+	height: 20%;
+}
+
+
+.form-floating{
+width: 100%;
+	position: relative;
+	
+}
+
+.line{
+	background-color: white;
+	width: 97%;
+	height: 1px;
+	border-radius: 10px;
+}
+
+.links{
+	padding: 35px;
+}
+
+.contct{
+
+	text-decoration: none;
+	width: 118%;
+
+display: flex;
+	color: white;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+
+
+.contct a:hover{
+	color: orange;
+	transition: 0.8s;
+}
+
+i{
+margin-right: 10px;
+font-size: 20px;
+
+}
+
+.btn:hover{
+	text-decoration: none;
+}
+
+.gridbigcont{
+	
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.grid-container{
+
+		
+margin: 30px;
+	display: grid;
+
+	grid-template-columns: 1fr, 1fr,1fr;
+}
+
+.card{
+margin: 0;
+	width: 350px;
+}
+
+@media screen and (max-width: 400px){
+	.grid-container {
+		font-size: 100%;
+	}
+.card-title{
+	font-size: 110%;
+}
+.contct{
+	flex-direction: column;
+}
+.social{
+	display: flex;
+	justify-content: space-around;
+    width: 150px;
+    margin-left: 10px;
+}
+.card{
+	width: 1fr;
+}
+}
