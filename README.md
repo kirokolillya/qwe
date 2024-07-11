@@ -1,2 +1,0 @@
-# Drifanica
-Encyclopedia Drifanica
